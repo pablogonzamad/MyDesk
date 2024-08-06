@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -18,35 +18,65 @@
             alt="Logo" width="70" height="50" class="d-inline-block align-text-top" />
           MyDesk
         </a>
+
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelect">
+            <option selected>Por Defecto</option>
+            <option value="1">Marino</option>
+            <option value="2">Amazonas</option>
+            <option value="3">Coral</option>
+          </select>
+          <label for="floatingSelect">Personalizar</label>
+        </div>
       </div>
+
+
+
     </nav>
   </header>
 
-  <div class="container text-center pt-5">
+  <div class="container text-center pt-5 pb-5">
     <div class="row">
       <!-- PERFIL E INFO DE USER -->
       <div class="container col-2">
         <div>
           <h4>Perfil</h4>
-          <p>[Perfil]</p>
+          <div>
+            <img src="/static/imgs/perfil.png" alt="" width="150px" height="150px">
+          </div>
         </div>
 
-        <div>
-          <p>[User Info]</p>
+        <div class="pt-4">
+          <p>
+            Jacinto Jiménez
+            jac.jimen@mail.com
+          </p>
         </div>
 
-        <div>
-          <p>[Link y Config User]</p>
+        <!-- Links de Perfil y Configuracion -->
+        <div class="btn-group-vertical d-inline" role="group">
+          <button type="button" class="btn btn-primary">Mi Perfil</button>
+          <button type="button" class="btn btn-primary">Ajustes</button>
         </div>
+
       </div>
 
-      <!-- SCOLL PRINCIPAL Y NOTAS -->
+      <!-- SCROLL PRINCIPAL Y NOTAS -->
       <div class="container col-8">
         <h4 class="pb-4">Notas Recientes</h4>
-        <p>[Controles Notas]</p>
+        
+        <!-- CONTROLES NOTAS -->
+        <div class="btn-group pb-4" role="group">
+          <button type="button" class="btn btn-success">Nueva Nota</button>
+          <button type="button" class="btn btn-warning">Editar Nota</button>
+          <button type="button" class="btn btn-danger">Borrar Nota</button>
+
+        </div>
+        
+        <!-- VISTA NOTAS -->
         <div class="card">
           <div class="card-body">
-            <div>
+            <div class="card m-3 p-3">
               <h5>Note1</h5>
               <p>
                 Aliquam eleifend posuere lorem, sit amet vehicula quam
@@ -58,7 +88,7 @@
               </p>
             </div>
 
-            <div>
+            <div class="card m-3 p-3">
               <h5>Note2</h5>
               <p>
                 Sed porta orci dolor, eu sodales neque suscipit eget. Interdum
@@ -71,7 +101,7 @@
               </p>
             </div>
 
-            <div>
+            <div class="card m-3 p-3">
               <h5>Note3</h5>
               <p>
                 Fusce id cursus velit. Proin ac sapien ornare, fringilla velit
@@ -83,7 +113,7 @@
               </p>
             </div>
 
-            <div>
+            <div class="card m-3 p-3">
               <h5>Note4</h5>
               <p>
                 Nulla facilisis dapibus orci vel pulvinar. Donec ut accumsan
@@ -102,7 +132,7 @@
               </p>
             </div>
 
-            <div>
+            <div class="card m-3 p-3">
               <h5>Note5</h5>
               <p>
                 Sed id dignissim magna. Phasellus faucibus auctor ultrices.
@@ -121,7 +151,7 @@
               </p>
             </div>
 
-            <div>
+            <div class="card m-3 p-3">
               <h5>Note6</h5>
               <p>
                 Aliquam hendrerit tortor ut arcu tempus blandit. Aliquam
@@ -142,7 +172,19 @@
       <!-- WIDGETS Y OTRAS FUNCIONES -->
       <div class="container col-2">
         <h4>Mis Widgets</h4>
-        <p>[Todos los Widgets]</p>
+
+        <div class="card m-3">
+          [Widget1]
+        </div>
+
+        <div class="card m-3">
+          [Widget2]
+        </div>
+
+        <div class="card m-3">
+          [Widget3]
+        </div>
+
       </div>
     </div>
   </div>
@@ -150,11 +192,11 @@
   <footer>
     <nav class="text-bg-secondary pt-3">
       <div class="col-12 text-center">
-        
+
         <div>
           <p>Contactanos: <br> mail@mail.com</p>
         </div>
-        
+
         <div>
           <a class="navbar-brand fs-2 text-light" href="index.html">
             <img
@@ -164,6 +206,7 @@
         </div>
 
         <div class="pt-3 pb-3">
+          <!-- Poner funcion para Automatizar el Año Actual -->
           <h6>Copyright ©2024 - Todos los Derechos Reservados</h6>
         </div>
 
