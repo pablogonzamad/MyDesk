@@ -1,6 +1,76 @@
+:root {
+    --primary-color: #275B56;
+    --nav-color: #4FA4BC;
+    --m-card: #57AE97;
+    --prim-btn-color: #EFEFD3;
+    --prim-btn-h: #AAAE7A;
+    --sec-btn-color: #F5DA6B;
+    --sec-btn-h: #E0C257;
+    --tert-btn-color: #AAAE7A;
+    --tert-btn-h: #92955E;
+}
+
+header nav,
+footer nav {
+    background: var(--nav-color);
+}
+
+body{
+    background: var(--primary-color);
+}
+
+body .prim-btn {
+    background: var(--prim-btn-color);
+}
+
+body .prim-btn:hover {
+    background: var(--prim-btn-h);
+}
+
+body .sec-btn {
+    background: var(--sec-btn-color);
+}
+
+body .sec-btn:hover {
+    background: var(--sec-btn-h);
+}
+
+body .tert-btn {
+    background: var(--tert-btn-color);
+}
+
+body .tert-btn:hover {
+    background: var(--tert-btn-h);
+}
+
+.main-card {
+    background: var(--nav-color);
+}
+
+
+
+/* ESTILOS */
+/* ESTILO POR DEFECTO */
+body.dark {
+    --primary-color: #1A3433;
+    --nav-color: #357484;
+    --prim-btn-color: #6B6C5A;
+    --prim-btn-h: #888A72;
+    --sec-btn-color: #B2933F;
+    --sec-btn-h: #9E7F34;
+    --tert-btn-color: #7D8062;
+    --tert-btn-h: #9A9D7A;
+}
+
+/* -ESTILO MARINO- */
+
+
+/* -ESTILO AMAZONAS- */
+
+/* -ESTILO CORAL- */
 
 /* WIDGET RELOJ */
-.clock{
+.clock {
     display: flex;
     height: 200px;
     width: 200px;
@@ -8,18 +78,18 @@
     align-items: center;
     justify-content: center;
     background: white;
-    box-shadow: 0 15px 25px rgba(0, 0, 0,0.1);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
     position: relative;
 }
 
-.clock label{
+.clock label {
     position: absolute;
     inset: 10px;
     text-align: center;
     transform: rotate(calc(var(--i) * (360deg/12)));
 }
 
-.clock label span{
+.clock label span {
     display: inline-block;
     font-size: 15px;
     font-weight: 500;
@@ -31,7 +101,7 @@
     height: 12px;
     width: 12px;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
 
 .indicator::before {
@@ -66,12 +136,3 @@
     width: 6px;
     background: black;
 }
-
-
-/* ESTILOS */
-
-/* -ESTILO MARINO- */
-
-/* -ESTILO AMAZONAS- */
-
-/* -ESTILO CORAL- */

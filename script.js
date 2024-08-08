@@ -3,6 +3,14 @@ const body = document.querySelector("body"),
     hourHand = document.querySelector(".hour"),
     minuteHand = document.querySelector(".minute"),
     secondHand = document.querySelector(".second");
+    switchColor = document.querySelector(".switch-color")
+
+// EVENTO SWITCH COLOR
+switchColor.addEventListener("click", () => {
+    // Cambiar a Dark Mode
+    body.classList.toggle("dark");
+})
+
 
 const updateTime = () =>{
     // OBTENER TIEMPO ACTUAL Y CALCULAR GRADOS PARA MANECILLAS
