@@ -54,23 +54,33 @@ body .tert-btn:hover {
 
 
 /* ESTILOS */
-/* ESTILO POR DEFECTO */
+/* ESTILO OSCURO */
 body.dark {
-    --primary-color: #1A3433;
-    --nav-color: #357484;
-    --prim-btn-color: #6B6C5A;
-    --prim-btn-h: #888A72;
-    --sec-btn-color: #B2933F;
-    --sec-btn-h: #9E7F34;
-    --tert-btn-color: #7D8062;
-    --tert-btn-h: #9A9D7A;
+    --primary-color: #1E2A30;
+    --nav-color: #2A3B42;
+    --prim-btn-color: #374950;
+    --prim-btn-h: #4C5D66;
+    --sec-btn-color: #4C5D66;
+    --sec-btn-h: #62747F;
+    --tert-btn-color: #6C7A85;
+    --tert-btn-h: #85949E;
+}
+
+body.realDark {
+    --primary-color: #121212;
+    --nav-color: #2B2B2B;
+    --prim-btn-color: #333333;
+    --prim-btn-h: #4D4D4D;
+    --sec-btn-color: #444444;
+    --sec-btn-h: #5E5E5E;
+    --tert-btn-color: #555555;
+    --tert-btn-h: #6F6F6F;
 }
 
 /* -ESTILO AQUA- */
 body.aqua {
     --primary-color: #0B5860;
     --nav-color: #4FA4BC;
-    --m-card: #57AE97;
     --prim-btn-color: #9B9B6E;
     --prim-btn-h: #AAAE7A;
     --sec-btn-color: #D9B97C;
@@ -81,17 +91,30 @@ body.aqua {
 
 /* -ESTILO AMAZONAS- */
 body.amazona {
-    --primary-color: #173C3F;      /* Verde Bosque Oscuro (más suave) */
-    --nav-color: #2D6A4F;          /* Verde Selva (más oscuro) */
-    --prim-btn-color: #4A774D;     /* Verde Musgo (más oscuro) */
-    --prim-btn-h: #3A5D3F;         /* Verde Musgo más oscuro para hover */
-    --sec-btn-color: #7A9A5F;      /* Verde Pasto Claro (más apagado) */
-    --sec-btn-h: #5D8A40;          /* Verde Pasto Claro más oscuro para hover */
-    --tert-btn-color: #28A745;     /* Verde Lima (más apagado) */
-    --tert-btn-h: #1E8A38;         /* Verde Lima más oscuro para hover */
+    --primary-color: #173C3F;
+    --nav-color: #2D6A4F;
+    --prim-btn-color: #4A774D;
+    --prim-btn-h: #3A5D3F;
+    --sec-btn-color: #7A9A5F;
+    --sec-btn-h: #5D8A40;
+    --tert-btn-color: #28A745;
+    --tert-btn-h: #1E8A38;
 }
 
 /* -ESTILO CORAL- */
+body.coral {
+    --nav-color: #D1837D;
+    --primary-color: #BA6F6E;
+    --prim-btn-color: #A28E9B;
+    --prim-btn-h: #3A5D3F;
+    --sec-btn-color: #7A9A5F;
+    --sec-btn-h: #5D8A40;
+    --tert-btn-color: #D3D5CB;
+    --tert-btn-h: #1E8A38;
+    
+}
+
+
 
 /* WIDGET RELOJ */
 .clock {

@@ -19,13 +19,19 @@ colorSelect.addEventListener("change", (event) => {
     const selectedVal = event.target.value;
 
     // LIMPIAR COLOR ACTUAL
-    body.classList.remove("dark", "aqua", "amazona", "default");
+    body.classList.remove("default", "dark", "realDark", "aqua", "amazona", "coral");
 
     switch (selectedVal || null) {
         case 'dark':
             body.classList.add("dark");
 
             break;
+
+        case 'realDark':
+            body.classList.add("realDark");
+
+            break;
+
 
         case 'aqua':
             body.classList.add("aqua");
@@ -35,10 +41,14 @@ colorSelect.addEventListener("change", (event) => {
             body.classList.add("amazona");
             break;
 
+        case 'coral':
+            body.classList.add("coral");
+            break;
+
 
 
         case 'default':
-            body.classList.add("default");
+            body.classList.add("");
             break;
     }
 })
