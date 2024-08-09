@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/static/stilos.css">
 </head>
 
-<body class="text-white">
+<body>
   <header>
     <nav class="navbar">
       <div class="container-fluid">
@@ -20,19 +20,15 @@
           MyDesk
         </a>
 
-        <!-- <div class="form-floating">
+        <div class="form-floating">
           <select class="form-select" id="floatingSelect">
-            <option selected>Por Defecto</option>
-            <option value="1">Marino</option>
-            <option value="2">Amazonas</option>
-            <option value="3">Coral</option>
+            <option selected value="default">Por Defecto</option>
+            <option value="aqua">Aqua</option>
+            <option value="amazona">Amazonas</option>
+            <option value="coral">Coral</option>
           </select>
           <label for="floatingSelect">Personalizar</label>
-        </div> -->
-
-        <button class="btn sec-btn switch-color">
-          Modo
-        </button>
+        </div>
 
       </div>
 
@@ -41,7 +37,7 @@
     </nav>
   </header>
 
-  <div class="container text-center pt-5 pb-5">
+  <div class="container text-light text-center pt-5 pb-5">
     <div class="row">
       <!-- PERFIL E INFO DE USER -->
       <div class="col-2">
@@ -61,8 +57,8 @@
 
         <!-- Links de Perfil y Configuracion -->
         <div class="btn-group-vertical d-inline rounded" role="group">
-          <button type="button" class="btn prim-btn">Mi Perfil</button>
-          <button type="button" class="btn prim-btn">Ajustes</button>
+          <button type="button" class="btn prim-btn text-white">Mi Perfil</button>
+          <button type="button" class="btn prim-btn text-white">Ajustes</button>
         </div>
 
       </div>
@@ -179,10 +175,10 @@
       <div class="container col-3">
         <h4>Mis Widgets</h4>
 
-        <div class="card main-card m-3 pt-3 pb-1 align-items-center">
+        <div class="card main-card m-3 pt-3 pb-1 align-items-center text-white">
           <!-- Reloj puede se cambia a Digital o Analogo -->
           <h5>Reloj</h5>
-          <div class="clock">
+          <div class="clock text-dark">
             <label style="--i:1"><span>1</span></label>
             <label style="--i:2"><span>2</span></label>
             <label style="--i:3"><span>3</span></label>
@@ -213,7 +209,7 @@
 
         </div>
 
-        <div class="card main-card m-3 pt-3 pb-1">
+        <div class="card main-card m-3 pt-3 pb-1 text-white">
           <!-- Clima puede ajustarse a una Zona -->
           <h5>Clima</h5>
 
@@ -235,7 +231,7 @@
 
         </div>
 
-        <div class="card main-card m-3 pt-3 pb-1">
+        <div class="card main-card m-3 pt-3 pb-1 text-white">
           <h5>Reproducir Música</h5>
           <div>[Widget3]</div>
           <!-- Control Widget -->
@@ -245,7 +241,7 @@
             </button>
 
           </div>
-          
+
         </div>
 
       </div>
@@ -256,7 +252,7 @@
     <nav class="pt-3">
       <div class="col-12 text-center">
 
-        <div>
+        <div class="text-white">
           <p>Contactanos: <br> mail@mail.com</p>
         </div>
 

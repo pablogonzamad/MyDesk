@@ -1,13 +1,12 @@
 :root {
-    --primary-color: #275B56;
-    --nav-color: #4FA4BC;
-    --m-card: #57AE97;
-    --prim-btn-color: #EFEFD3;
-    --prim-btn-h: #AAAE7A;
-    --sec-btn-color: #F5DA6B;
-    --sec-btn-h: #E0C257;
-    --tert-btn-color: #AAAE7A;
-    --tert-btn-h: #92955E;
+    --primary-color: #7B93B4;
+    --nav-color: #9F9CAC;
+    --prim-btn-color: #6A7D99;
+    --prim-btn-h: #5A6C84;
+    --sec-btn-color: #6A8AB9;
+    --sec-btn-h: #5681A4;
+    --tert-btn-color: #E09732;
+    --tert-btn-h: #C07F26;
 }
 
 header nav,
@@ -15,20 +14,25 @@ footer nav {
     background: var(--nav-color);
 }
 
-body{
+body {
     background: var(--primary-color);
+
+
 }
 
 body .prim-btn {
     background: var(--prim-btn-color);
+
 }
 
 body .prim-btn:hover {
     background: var(--prim-btn-h);
+
 }
 
 body .sec-btn {
     background: var(--sec-btn-color);
+
 }
 
 body .sec-btn:hover {
@@ -62,10 +66,30 @@ body.dark {
     --tert-btn-h: #9A9D7A;
 }
 
-/* -ESTILO MARINO- */
-
+/* -ESTILO AQUA- */
+body.aqua {
+    --primary-color: #0B5860;
+    --nav-color: #4FA4BC;
+    --m-card: #57AE97;
+    --prim-btn-color: #9B9B6E;
+    --prim-btn-h: #AAAE7A;
+    --sec-btn-color: #D9B97C;
+    --sec-btn-h: #B89B5F;
+    --tert-btn-color: #AAAE7A;
+    --tert-btn-h: #92955E;
+}
 
 /* -ESTILO AMAZONAS- */
+body.amazona {
+    --primary-color: #173C3F;      /* Verde Bosque Oscuro (más suave) */
+    --nav-color: #2D6A4F;          /* Verde Selva (más oscuro) */
+    --prim-btn-color: #4A774D;     /* Verde Musgo (más oscuro) */
+    --prim-btn-h: #3A5D3F;         /* Verde Musgo más oscuro para hover */
+    --sec-btn-color: #7A9A5F;      /* Verde Pasto Claro (más apagado) */
+    --sec-btn-h: #5D8A40;          /* Verde Pasto Claro más oscuro para hover */
+    --tert-btn-color: #28A745;     /* Verde Lima (más apagado) */
+    --tert-btn-h: #1E8A38;         /* Verde Lima más oscuro para hover */
+}
 
 /* -ESTILO CORAL- */
 
